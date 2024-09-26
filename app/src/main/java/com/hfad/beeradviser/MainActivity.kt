@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         }
         // val color = "${beerColor.selectedItem}"
     }
+
     fun getBeers(color: String): List<String> {
         return when (color) {
             "Light" -> listOf("Jail Pale Ale", "Lager Lite")
