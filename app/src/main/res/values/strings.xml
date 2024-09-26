@@ -44,7 +44,7 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="find_beer">Find Beer!</string>
-    <string name="beer_types">Beer Types</string> 
+    <string name="beer_types">Beer Types</string>
     <string name="brands">No beer selected</string>
     <string-array name="beer_colors">
         <item>Light</item>
