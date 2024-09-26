@@ -29,7 +29,10 @@ class MainActivity : AppCompatActivity() {
             val beerColor = findViewById<Spinner>(R.id.beer_color)
             val color = beerColor.selectedItem
             // метод getBeers используется для получения списка сортов пива
-
+            val beerList = getBeers(color.toString())
+            val beers = beerList.reduce{str, item -> str + '\n' + item} // формируем строку результата с выводом каждого сорта пива в новой строке
+            val brands = findViewById<TextView>(R.id.brands)
+            brands.text = beers
 
         }
         // val color = "${beerColor.selectedItem}"
